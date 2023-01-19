@@ -4,10 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/images/fav.svg" />
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap" rel="stylesheet">
     <title>Oefenpagina Srollytelling</title>
 </head>
 <body>
+    <section id="firstscene">
+        <!-- <img class="back_first_scene" src="images/achtergrond_scene1.png" alt="achtergrond eerste scene"> -->
+        <!-- Achtergrond -->
+        <img
+        src="images/achtergrond_scene1.png"
+        alt="achtergrond eerste scene"
+        class="back_first_scene"
+        data-0="top: 0%; left: 0%;"
+        data-1000="top: 0%; left: 0%;"
+        />
+
+        <!-- School gebouw DAK -->
+        <img
+        src="images/docent_geschokt.png"
+        alt="achtergrond eerste scene"
+        class="docent"
+        data-189="opacity: 0;"
+        data-190="opacity: 1;"
+        data-200="top: 29%; left: 20%;"
+        data-400="top: 29%; left: 20%;"
+        />
+
+        <!-- School gebouw PALEN -->
+        <img
+        src="images/palen.png"
+        alt="Palen van het school gebouw"
+        class="palen"
+        data-0="top: 10%; left: 9%;"
+        data-1000="top: 10%; left: 9%;"
+        />
+
+        <!-- Docent -->
+        <img
+        src="images/docent_blij.png"
+        alt="achtergrond eerste scene"
+        class="docent"
+        data-0="top: 30%; left: 20%;"
+        data-190="opacity: 1"
+        data-200="top: 30%; left: 20%; opacity: 0"
+        />
+
+        <img
+        src="images/docent_geschokt.png"
+        alt="achtergrond eerste scene"
+        class="docent"
+        data-189="opacity: 0;"
+        data-190="opacity: 1;"
+        data-200="top: 29%; left: 20%;"
+        data-400="top: 29%; left: 20%;"
+        />
+        
+        <!-- Kinderen | Kind 1-->
+        <img
+        src="images/kind_1.png"
+        alt="Leering 1"
+        class="kinderen"
+        data-0="top: 24%; left: 67%;"
+        data-190="opacity: 1"
+        data-200="top: 24%; left: 67%; opacity: 0"
+        />
+
+        <img
+        src="images/kind_1_geschokt.png"
+        alt="Leerling 1 geschokt"
+        class="kinderen"
+        data-189="top: 24%; left: 67%; opacity: 0;"
+        data-190="opacity: 1;"
+        data-400="top: 24%; left: 67%;"
+        />
+
+    </section>
+
+   
+
+    <!--you don't need the "data-step" attr, but can be useful for storing instructions for JS -->
+    <!-- <div class="step" data-step="a"></div>
+    <div class="step" data-step="b"></div>
+    <div class="step" data-step="c"></div> -->
+
+
+
 
     <div class="sec">
         <h2>Parallax Scrolling Effects</h2>
@@ -43,10 +128,12 @@
     <div data-0="background-color:rgb(0,0,255);transform:rotate(0deg);" data-500="background-color:rgb(255,0,0);transform:rotate(360deg);">WOOOT</div>
 
 
+    <!-- <img src="https://i.ibb.co/LQTtjKY/achtergrond-scene1.png"> -->
 
 
 
-    
+    <!-- <script src="scrollmagic-master/uncompressed/ScrollMagic.js"></script>
+    <script src="https://unpkg.com/scrollama"></script> -->
     <script src="script/script.js"></script>
     <script src="script/skrollr.min.js" ></script>
     <script type="text/javascript">
