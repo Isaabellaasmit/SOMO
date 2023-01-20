@@ -9,48 +9,176 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
     <title>Oefenpagina Srollytelling</title>
 </head>
 <body>
+
+    <!-- ----------------------------------------------------------------------------------- -->
+        <!-- ----------------------------------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------------------------------- -->
+
+    <section id="begin">
+        <!-- De oranje achtergrond -->
+        <img
+        src="images/oranje_achtergrond_2.png"
+        alt="achtergrond begin scherm"
+        class="back_begin"
+        data-0="top: 0%; left: 0%;"
+        data-200="top: 0%; left: 0%; opacity: 1;"
+        data-250="opacity: 0;"
+        style="width: 100%; z-index: -1;"
+        />
+
+        <!-- Titel -->
+        <img
+        src="images/titel_V1_korrelig.png"
+        alt="achtergrond begin scherm"
+        class="back_begin"
+        data-0="top: 7%; left: 20%; opacity: 1;"
+        data-200="top: 7%; left: 20%; opacity: 0;"
+        style="width: 57%;"
+        />
+
+        <!-- Get scrolling! -->
+        <img
+        src="images/getScrolling.png"
+        alt="Get scrolling!"
+        class="back_begin"
+        data-0="top: 75%; left: 20%; opacity: 1;"
+        data-200="top: 50%; left: 20%; opacity: 0;"
+        style="width: 57%; z-index: 1;"
+        />
+    </section>
+
+
+
+
+    <!-- ----------------------------------------------------------------------------------- -->
+        <!-- ----------------------------------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------------------------------- -->
+
     <section id="firstscene">
-        <!-- <img class="back_first_scene" src="images/achtergrond_scene1.png" alt="achtergrond eerste scene"> -->
-        <!-- Achtergrond -->
+        <!-- Achtergrond blauw-->
+        <img
+        src="images/blauwe_achtergrond.png"
+        alt="Blauwe achtergrond"
+        class="back_first_scene"
+        data-190="top: 0%; left: 0%; opacity: 0"
+        data-250="top: 0%; left: 0%; opacity: 1;"
+        style="z-index: -2; width: 100%;"
+        />
+
+        <!-- Wolken -->
+        <img
+        src="images/blauwe_achtergrond_wolken.png"
+        alt="Wolken"
+        class="back_first_scene"
+        data-250="top: 0%; left: 0%; opacity: 0"
+        data-300="top: 0%; left: 0%; opacity: 1;"
+        style="width: 100%;"
+        />
+
+        <!-- Zand ondergrond -->
         <img
         src="images/achtergrond_scene1.png"
         alt="achtergrond eerste scene"
         class="back_first_scene"
-        data-0="top: 0%; left: 0%;"
-        data-1000="top: 0%; left: 0%;"
+        data-400="top: 200%; left: 0%;"
+        data-500="top: 0%; left: 0%;"
         />
+
+
+        <!-- --------------------------------------------- -->
+
 
         <!-- School gebouw DAK -->
         <img
-        src="images/docent_geschokt.png"
-        alt="achtergrond eerste scene"
-        class="docent"
-        data-189="opacity: 0;"
-        data-190="opacity: 1;"
-        data-200="top: 29%; left: 20%;"
-        data-400="top: 29%; left: 20%;"
+        src="images/dak.png"
+        alt="dak van het schoolgebouw"
+        class="dak"
+        data-0="top: 8%; left: 0%;"
+        data-345="opacity: 1;"
+        data-350="top: 8%; left: 0%; opacity: 0;"
+        style="width: 100%; display: none;"
         />
 
+        <img
+        src="images/dak_kapot.png"
+        alt="kapot dak van het schoolgebouw"
+        class="dak"
+        data-330="top: 2%; left: 3%; opacity: 0;"
+        data-350="top: 3%; left: 4%; opacity: 1;"
+        style="width: 100%; display: none;"
+        />
+
+
+
+        <!-- --------------------------------------------- -->
         <!-- School gebouw PALEN -->
+
         <img
         src="images/palen.png"
         alt="Palen van het school gebouw"
         class="palen"
         data-0="top: 10%; left: 9%;"
         data-1000="top: 10%; left: 9%;"
+        style="display: none;"
         />
 
+        <img
+        src="images/paal_heel.png"
+        alt="Bovenste deel van de paal"
+        class="palen"
+        data-0="top: 19%; left: 54%; width: 5.8%;"
+        data-190="opacity: 1;"
+        data-200="opacity: 0;"
+        style="display: none;"
+        />
+
+        <img
+        src="images/paal_bijna_kapot.png"
+        alt="Paal is bijna kapot"
+        class="palen"
+        data-189="top: 19%; left: 47%; width: 18%; opacity: 0;"
+        data-190="opacity: 0;"
+        data-340="opacity 1;"
+        data-345="opacity: 0"
+        />
+
+        <img
+        src="images/paal_heel.png"
+        alt="Paal die valt"
+        class="palen"
+        data-330="top: 19%; left: 54%; width: 5.8%; opacity: 0; transform:rotate(0deg) "
+        data-350="top: 35%; left: 54%; width: 5.8%; opacity: 1; transform:rotate(80deg)"
+        style="display: none;"
+        />
+
+        <img
+        src="images/paal_kapot.png"
+        alt="Kapotte paal"
+        class="palen"
+        data-330="top: 23.4%; left: 36%; width: 41.2%; opacity: 1; transform:rotate(-82deg) "
+        data-350="top: 40.5%; left: 37%; opacity: 1; transform:rotate(0deg)"
+        style="z-index: 0; display: none;"
+        />
+
+
+
+        <!-- --------------------------------------------- -->
         <!-- Docent -->
+
         <img
         src="images/docent_blij.png"
         alt="achtergrond eerste scene"
         class="docent"
-        data-0="top: 30%; left: 20%;"
+        data-0="top: 35%; left: 15%;"
         data-190="opacity: 1"
-        data-200="top: 30%; left: 20%; opacity: 0"
+        data-200="top: 35%; left: 15%; opacity: 0"
+        style="display: none;"
         />
 
         <img
@@ -59,11 +187,16 @@
         class="docent"
         data-189="opacity: 0;"
         data-190="opacity: 1;"
-        data-200="top: 29%; left: 20%;"
-        data-400="top: 29%; left: 20%;"
+        data-200="top: 34%; left: 15.1%;"
+        data-400="top: 34%; left: 15.1%;"
+        style="display: none;"
         />
         
+
+
+        <!-- --------------------------------------------- -->
         <!-- Kinderen | Kind 1-->
+
         <img
         src="images/kind_1.png"
         alt="Leering 1"
@@ -71,6 +204,7 @@
         data-0="top: 24%; left: 67%;"
         data-190="opacity: 1"
         data-200="top: 24%; left: 67%; opacity: 0"
+        style="display: none;"
         />
 
         <img
@@ -80,6 +214,7 @@
         data-189="top: 24%; left: 67%; opacity: 0;"
         data-190="opacity: 1;"
         data-400="top: 24%; left: 67%;"
+        style="display: none;"
         />
 
     </section>
@@ -123,9 +258,10 @@
             software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </div>
 
-    <div data-0="background-color:rgb(0,0,255);" data-500="background-color:rgb(255,0,0);">WOOOT</div>
+    <!-- <div data-0="background-color:rgb(0,0,255);" data-500="background-color:rgb(255,0,0);">WOOOT</div>
 
-    <div data-0="background-color:rgb(0,0,255);transform:rotate(0deg);" data-500="background-color:rgb(255,0,0);transform:rotate(360deg);">WOOOT</div>
+    <div data-0="background-color:rgb(0,0,255);transform:rotate(0deg);" 
+         data-500="background-color:rgb(255,0,0);transform:rotate(360deg);">WOOOT</div> -->
 
 
     <!-- <img src="https://i.ibb.co/LQTtjKY/achtergrond-scene1.png"> -->
