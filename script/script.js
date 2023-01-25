@@ -1,6 +1,9 @@
 console.log("test")
 
-var s = skrollr.init();
+window.addEventListener('DOMContentLoaded', e => {
+    var s = skrollr.init();
+})
+
 
 
 
