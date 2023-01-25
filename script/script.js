@@ -1,6 +1,6 @@
 console.log("test")
 
-
+var s = skrollr.init();
 
 
 
