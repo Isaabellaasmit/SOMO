@@ -100,6 +100,62 @@ p {
 .kinderen {
     position: fixed;
 
-    width: 19%;
+    width: 18%;
     height: auto;
+}
+
+
+/****************************************************************/
+/*                         Tweede scene                         */
+/****************************************************************/
+
+#scenetwee {
+    background: var(--color-yelow-background);
+}
+
+
+.back_tweede_scene {
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+}
+
+.docent_2 {
+    position: fixed;
+
+    width: 25%;
+    height: auto;
+}
+
+.ambtenaar {
+    position: fixed;
+
+    width: 24%;
+    height: auto;
+}
+
+.praatwolk {
+    position: fixed;
+
+    width: 30%;
+    height: auto;
+}
+
+/****************************************************************/
+/*                          Derde scene                         */
+/****************************************************************/
+
+#scenedrie {
+    background: var(--color-yelow-background);
+}
+
+
+.back_derde_scene {
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
 }
