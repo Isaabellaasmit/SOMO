@@ -159,3 +159,13 @@ p {
     position: fixed;
     top: 0;
 }
+
+.gas_omlijning {
+    position: fixed;
+}
+
+.praatwolk_scene3 {
+    position: fixed;
+
+    width: 50%;
+}
