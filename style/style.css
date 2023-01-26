@@ -169,3 +169,18 @@ p {
 
     width: 50%;
 }
+
+
+/****************************************************************/
+/*                          Vierde scene                        */
+/****************************************************************/
+
+#scenevier {
+    background: var(--color-yelow-background);
+}
+
+
+.back_vierde_scene {
+    position: fixed;
+    top: 0;
+}
